@@ -8,8 +8,7 @@ var Main = React.createClass({
     return(
 
       <div className="main-container">
-
-
+      
         <div className="container">
 
           <nav className="navbar navbar-default" role="navigation">
@@ -21,20 +20,20 @@ var Main = React.createClass({
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand" href="#">NYT-React</a>
+                <a className="navbar-brand" href="#">Band Link</a>
               </div>
 
               <div className="collapse navbar-collapse navbar-ex1-collapse">
                 <ul className="nav navbar-nav navbar-right">
-                  <li><a href="#/search">Search</a></li>
-                  <li><a href="#/saved">Saved Articles</a></li>
+                  <li><a href="#/search">Login </a></li>
+                  <li><a href="#/saved">Sign Up</a></li>
                 </ul>
               </div>
             </div>
           </nav>
 
           <div className="jumbotron">
-            <h2 className="text-center"><strong>New York Times Article Scrubber</strong></h2>
+            <h2 className="text-center"><strong>Band Link</strong></h2>
           </div>
 
           {this.props.children}
