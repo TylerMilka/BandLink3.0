@@ -1,12 +1,14 @@
 {
-  "name": "19react-nyt-search",
+  "name": "FinalProject",
   "version": "1.0.0",
   "description": "homework19",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --watch server --exec babel-node -- server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "repository": {
     "type": "git",

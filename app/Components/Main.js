@@ -20,7 +20,7 @@ var Main = React.createClass({
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand" href="#">Band Link</a>
+                <a className="navbar-brand" href="#">New York Times Scrubber</a>
               </div>
 
               <div className="collapse navbar-collapse navbar-ex1-collapse">
@@ -33,7 +33,7 @@ var Main = React.createClass({
           </nav>
 
           <div className="jumbotron">
-            <h2 className="text-center"><strong>Band Link</strong></h2>
+            <h2 className="text-center"><strong>New York Times Scrubber</strong></h2>
           </div>
 
           {this.props.children}
