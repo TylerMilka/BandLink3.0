@@ -20,20 +20,20 @@ var Main = React.createClass({
                   <span className="icon-bar"></span>
                   <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand" href="#">New York Times Scrubber</a>
+                <a className="navbar-brand" href="#">New York Times </a>
               </div>
 
               <div className="collapse navbar-collapse navbar-ex1-collapse">
                 <ul className="nav navbar-nav navbar-right">
-                  <li><a href="#/search">Login </a></li>
-                  <li><a href="#/saved">Sign Up</a></li>
+                  <li><a href="#/search">Home </a></li>
+                  <li><a href="#/saved">Saved</a></li>
                 </ul>
               </div>
             </div>
           </nav>
 
           <div className="jumbotron">
-            <h2 className="text-center"><strong>New York Times Scrubber</strong></h2>
+            <h2 className="text-center"><strong>New York Times </strong></h2>
           </div>
 
           {this.props.children}

@@ -46,7 +46,7 @@ var Main = React.createClass({
 
         <li className="list-group-item">
           <h3>
-              <span><em>Save An Article...</em></span>
+              <span><em>Save Article</em></span>
           </h3>
         </li>
 
